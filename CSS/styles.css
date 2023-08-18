@@ -9,6 +9,7 @@
 
 
 
+
 /* MENU */
 
 
@@ -21,11 +22,58 @@
 
 /* LOCATIONS */
 
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
 
+header {
+    padding: 20px 40px 20px 40px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  nav {
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+  }
 
+  .navbar-brand {
+    background-color: black;
+    border-radius: 50%;
+    width: 68px;
+    height: 65px;
+    padding-top: 9px;
+    text-align: center;
+  }
 
+  #navbarNav {
+    justify-content: flex-end;
+    text-align: right;
+  }
 
-
+  .container-fluid {
+    width: 100%;
+  }
+  
+  .navbar-brand {
+    font-size: 30px;
+  }
+  
+  .btn-bd-primary {
+    border: rgb(0, 0, 0) solid 1px;
+  }
+  
+  .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(0, 0, 0)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+  }
+  
+  .navbar-toggler {
+    --bs-navbar-toggler-focus-width: 0.00rem;
+  }
+  
 
 
 
