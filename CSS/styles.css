@@ -251,6 +251,7 @@ body {
   --bs-btn-hover-bg: #f8415cb2;
   --bs-btn-hover-border-color: #F8415B;
   margin-top: 40px;
+
 }
 
 @media only screen and (max-width: 768px) {
@@ -260,4 +261,21 @@ body {
 }
 
 
-/* CONTACT US PAGE STYLES*/
+/*FOOTER*/
+
+footer {
+  background-color: black;
+  height: 100px;
+}
+
+.footer-nav {
+  padding-top: 30px;
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  color: white;
+  gap: 35px;
+}
+
+
+/*CONTACT US PAGE STYLES*/
